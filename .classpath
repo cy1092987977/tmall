@@ -11,5 +11,7 @@
 	<classpathentry kind="lib" path="E:/web workspace1/tmall/web/WEB-INF/lib/spring-core-3.2.0.M1.jar"/>
 	<classpathentry kind="lib" path="E:/web workspace1/tmall/web/WEB-INF/lib/spring-web-3.2.0.M1.jar"/>
 	<classpathentry kind="lib" path="E:/web workspace1/tmall/web/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
