@@ -64,17 +64,17 @@ public abstract class BaseBackServlet extends HttpServlet {
             /*借助反射，调用对应的方法*/
             String method = (String) request.getAttribute("method");
             Method m = this.getClass().getMethod(method, javax.servlet.http.HttpServletRequest.class,
-                    javax.servlet.http.HttpServletResponse.class,Page.class);
-            String redirect = m.invoke(this,request, response,page).toString();
+                    javax.servlet.http.HttpServletResponse.class,Page.class);  //*** 声明
+            String redirect = m.invoke(this,request, response,page).toString();//*** 调用
              
             /*根据方法的返回值，进行相应的客户端跳转，服务端跳转，或者仅仅是输出字符串*/
              
             if(redirect.startsWith("@"))
-                response.sendRedirect(redirect.substring(1));
+                response.sendRedirect(redirect.substring(1));//临时跳转，substring是为了去掉‘/’，客户端跳转
             else if(redirect.startsWith("%"))
                 response.getWriter().print(redirect.substring(1));
             else
-                request.getRequestDispatcher(redirect).forward(request, response);
+                request.getRequestDispatcher(redirect).forward(request, response);//服务器跳转
              
         } catch (Exception e) {
             // TODO Auto-generated catch block
