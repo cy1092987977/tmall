@@ -5,8 +5,8 @@
 body {
 	font-size: 12px;
 	font-family: Arial;
-	min-width:1024px;
-/* 	width:1920px; */
+	min-width: 1024px;
+	/* 	width:1920px; */
 }
 
 a {
@@ -75,7 +75,7 @@ div.searchDiv input {
 	border: 1px solid transparent;
 	height: 36px;
 	margin: 1px;
-	outline:none;
+	outline: none;
 }
 
 div.searchDiv button {
@@ -89,18 +89,16 @@ div.searchDiv button {
 
 div.categoryWithCarousel {
 	width: 100%;
-	position:relative;
+	position: relative;
 }
 
-div.carouselBackgroundDiv{
-	width:100%;
-	height:510px;
+div.carouselBackgroundDiv {
+	width: 100%;
+	height: 510px;
 	background-color: #E8E8E8;
 	position: absolute;
-	top:36px;
-	
-	z-index:-1;
-	
+	top: 36px;
+	z-index: -1;
 }
 
 div.categoryWithCarousel div.headbar {
@@ -110,10 +108,12 @@ div.categoryWithCarousel div.headbar {
 div.carousel-of-product {
 	width: 1024px;
 	height: 510px;
-	margin:0px auto;
+	margin: 0px auto;
 }
-div.carousel-inner div.item img{
-/* 	width:100%; */
+
+div.carousel-inner div.item img {
+	/* 	width:100%; */
+	
 }
 
 div.categoryWithCarousel div.categoryMenu {
@@ -232,10 +232,9 @@ div.searchBelow a {
 	font-size: 14px;
 }
 
-div.homepageDiv{
-	position:relative;
+div.homepageDiv {
+	position: relative;
 }
-
 
 img.catear {
 	position: absolute;
@@ -247,7 +246,7 @@ img.logo {
 	position: absolute;
 	left: 0px;
 	top: 30px;
-/* 	z-index:-1; */
+	/* 	z-index:-1; */
 }
 
 div.homepageCategoryProducts {
@@ -503,7 +502,6 @@ div.categorySortBar {
 	padding: 4px;
 }
 
-
 table.categorySortBarTable td {
 	border: 1px solid #CCCCCC;
 	padding: 3px;
@@ -517,7 +515,7 @@ table.categorySortBarTable {
 
 table.categorySortBarTable td a {
 	color: #806F66;
-	font-size:12px;
+	font-size: 12px;
 }
 
 table.categorySortBarTable td a:hover {
@@ -546,7 +544,7 @@ table.categorySortBarTable input {
 	border-width: 0px;
 	height: 100%;
 	width: 50px;
-	font-size:12px;
+	font-size: 12px;
 }
 
 div.categoryProducts {
@@ -569,7 +567,6 @@ div.productUnit:hover {
 	padding: 0px;
 }
 
-
 div.productUnit span.productUnitDesc {
 	font-size: 12px;
 	color: #666666;
@@ -577,11 +574,12 @@ div.productUnit span.productUnitDesc {
 	padding: 16px;
 }
 
-div.productUnitFrame{
-	border:1px solid #eee;
+div.productUnitFrame {
+	border: 1px solid #eee;
 }
-div.productUnitFrame:hover{
-	border:1px solid #C40000;
+
+div.productUnitFrame:hover {
+	border: 1px solid #C40000;
 }
 
 div.productUnit span.productPrice {
@@ -683,7 +681,7 @@ div.simpleSearchDiv input {
 	border: 1px solid transparent;
 	height: 34px;
 	margin: 2px;
-	outline:none;
+	outline: none;
 }
 
 div.simpleSearchDiv button {
@@ -875,23 +873,24 @@ div.productNumber span.glyphicon {
 }
 
 div.productNumber span.arrow {
-    display: inline-block;
-    width: 22px;
-    height: 32px;
-    vertical-align:top;
+	display: inline-block;
+	width: 22px;
+	height: 32px;
+	vertical-align: top;
 }
 
-div.productNumber span.updown img{
-    display:inline-block;
-    vertical-align:top;
+div.productNumber span.updown img {
+	display: inline-block;
+	vertical-align: top;
 }
+
 div.productNumber span.updown {
-    border: 1px solid #999;
-    display: block;
-    width: 20px;
-    height: 14px;
-    text-align: center;
-    padding-top:4px;
+	border: 1px solid #999;
+	display: block;
+	width: 20px;
+	height: 14px;
+	text-align: center;
+	padding-top: 4px;
 }
 
 div.productNumber span.updownMiddle {
@@ -1135,7 +1134,7 @@ table.addressTable td {
 	padding-right: 5px;
 	text-align: left;
 	height: 30px;
-	font-size:12px;
+	font-size: 12px;
 }
 
 span.redStar {
@@ -1254,7 +1253,7 @@ tr.orderItemTR td {
 
 tbody.productListTableTbody td {
 	text-align: center;
-	font-size:12px;
+	font-size: 12px;
 }
 
 tbody.productListTableTbody td.orderItemFirstTD {
@@ -1475,7 +1474,7 @@ div.cartTitle button {
 
 table.cartProductTable {
 	width: 100%;
-	font-size:12px;
+	font-size: 12px;
 }
 
 table.cartProductTable th {
@@ -1668,7 +1667,7 @@ table.orderListItemTable:hover {
 
 tr.orderListItemFirstTR {
 	background-color: #F1F1F1;
-	font-size:12px;
+	font-size: 12px;
 }
 
 table.orderListItemTable td {
@@ -1699,7 +1698,7 @@ span.orderListItemDelete {
 div.orderListItemProductLinkOutDiv {
 	position: relative;
 	height: 80px;
-	font-size:12px;
+	font-size: 12px;
 }
 
 div.orderListItemProductLinkInnerDiv {
@@ -2265,13 +2264,14 @@ div.noMatch {
 	color: #888;
 }
 
-table.cartProductTable th.operation{
-	width:80px;
-}
-table.cartProductTable th.selectAndImage{
-	width:150px;
+table.cartProductTable th.operation {
+	width: 80px;
 }
 
-table td{
-	font-size:12px;	
+table.cartProductTable th.selectAndImage {
+	width: 150px;
+}
+
+table td {
+	font-size: 12px;
 }
